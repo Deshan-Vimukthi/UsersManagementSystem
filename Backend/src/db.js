@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-const MONGO_URI = 'mongodb+srv://deshanvimukthi976:SZrNzGqnSjLunP87@cluster0.hotklnh.mongodb.net/Users?retryWrites=true&w=majority'; // Replace with your MongoDB connection URI
+const MONGO_URI = 'database_url'; // Replace with your MongoDB connection URI
 
 const connectDB = async () => {
    // connecting database
