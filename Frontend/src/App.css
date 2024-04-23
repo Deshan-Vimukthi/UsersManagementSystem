@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container{
+  width: 100vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-form{
+  position: absolute;
+  width: 55vh;
+  top: 150px;
+  left: 55vh;
+  right: 20vh;
+  padding: 30px 50px 100px;
+  align-content: center;
+  border: 2px solid #1c3eea;
+  border-top: 30px solid #1c3eea;
+  display: block;
+  box-shadow: 10px 10px 10px 10px #808080;
+}
+.form{
+  display: grid;
+  grid-column: 0;
+}
+.forgot_password_label{
+  text-align: right;
+  display: inline-block;
+  margin-top: 5px;
+}
+.active-button{
+  min-width: 300px;
+  background: #1c3eea;
+  min-height: 40px;
+  border-radius: 5px;
+  border: 0 solid #1c3eea;
+  -webkit-text-fill-color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.inactive-button{
+
+}
+.text-box{
+  min-height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 16px;
+}
+#login{
+  margin-top: 30px;
+}
+.App-header {
+  background-color: #1c3eea;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.search-text-box{
+  min-height: 40px;
+  min-width: 300px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 16px;
+}
+.App-link {
+  color: #61dafb;
+}
+.header-container{
+  display: grid;
+  grid-template-columns: 25% 20% 60% 25%;
+}
+.inner-header-container{
+  display: grid;
+  grid-template-columns: 50% 50% ;
+}
+.header-label{
+  margin-top: 25px;
+  font-size: 20px;
+  background-color: #1c3eea;
+  border-width: 0;
+  -webkit-text-fill-color: white;
+}
+
+
+.onboarding-container{
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 10px 10px 10px 10px #808080;
+  margin: 40px;
+  display: flow;
+}
+.onboarding-inner-container{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.onboarding-text-box{
+  min-height: 40px;
+  min-width: 300px;
+  margin: 20px 10px 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 16px;
+}
+.onboarding-active-button{
+  min-width: 150px;
+  background: #1c3eea;
+  min-height: 40px;
+  border-radius: 5px;
+  border: 0 solid #1c3eea;
+  -webkit-text-fill-color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 25px;
+}
+.onboarding-inactive-button{
+  min-width: 150px;
+  background: white;
+  min-height: 40px;
+  border-radius: 5px;
+  border: 2px solid #1c3eea;
+  -webkit-text-fill-color: #1c3eea;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 25px;
+}
+.onboarding-h{
+  text-align: left;
+}
+.outer-container{
+ padding: 10px;
+  border: 2px solid #808080;
+}
+.button-container{
+  display: grid;
+  grid-template-columns: 72% 15% 15%;
+}
+
+.list-header{
+  position: relative;
+  display: grid;
+  grid-template-columns: 16.25% 16.25% 16.25% 16.25% 16.25% 16.25%;
+  background-color: #CCD2DD;
+  padding: 20px;
+  margin-top: 10px;
+}
+.list-item{
+  position: relative;
+  display: grid;
+  grid-template-columns: 16.25% 16.25% 16.25% 16.25% 16.25% 16.25%;
+  background-color: aliceblue;
+  padding: 20px;
+  margin-top: 0;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
